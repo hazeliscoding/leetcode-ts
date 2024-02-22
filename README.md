@@ -1,4 +1,5 @@
 # 🚀 LeetCode Solutions
+[![build](https://github.com/ducksoop/leetcode-ts/actions/workflows/nodejs.yml/badge.svg)](https://github.com/ducksoop/leetcode-ts/actions/workflows/nodejs.yml)
 
 A collection of my solutions for LeetCode problems, written in TypeScript. This project is set up with a focus on test-driven development and includes a script to automate the creation of new problem files.
 
