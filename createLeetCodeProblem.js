@@ -10,8 +10,8 @@ function createLeetCodeProblem(problemNumber, problemName) {
   const problemDir = path.join(__dirname, 'src', 'problems');
   const testDir = path.join(__dirname, 'tests');
 
-  const problemFileName = `${formattedNumber}_${camelCaseName}.ts`;
-  const testFileName = `${formattedNumber}_${camelCaseName}.test.ts`;
+  const problemFileName = `${formattedNumber}-${camelCaseName}.ts`;
+  const testFileName = `${formattedNumber}-${camelCaseName}.test.ts`;
 
   const problemFilePath = path.join(problemDir, problemFileName);
   const testFilePath = path.join(testDir, testFileName);
